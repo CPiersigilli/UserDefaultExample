@@ -86,6 +86,32 @@
 		</dict>
 		<dict>
 			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Aggiona:</string>
+			<key>Key</key>
+			<string>updateEvery</string>
+			<key>DefaultValue</key>
+			<string>Mai</string>
+			<key>Titles</key>
+			<array>
+				<string>Adesso</string>
+				<string>Ogni ora</string>
+				<string>Ogni giorno</string>
+				<string>Ogni settimana</string>
+				<string>Mai</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>Adesso</string>
+				<string>Ogni ora</string>
+				<string>Ogni giorno</string>
+				<string>Ogni settimana</string>
+				<string>Mai</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
 			<string>INFO APP</string>

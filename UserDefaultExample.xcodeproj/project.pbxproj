@@ -7,23 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		954DB12220E5686D0061F6CF /* SSCheckMark.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954DB12120E5686C0061F6CF /* SSCheckMark.swift.swift */; };
+		954DB12420E56D8F0061F6CF /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954DB12320E56D8F0061F6CF /* ImageScrollView.swift */; };
+		F105906F20F3E19900FD2712 /* OneDriveFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904420F3E19900FD2712 /* OneDriveFileProvider.swift */; };
+		F105907020F3E19900FD2712 /* CloudFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904520F3E19900FD2712 /* CloudFileProvider.swift */; };
+		F105907120F3E19900FD2712 /* FileObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904620F3E19900FD2712 /* FileObject.swift */; };
+		F105907220F3E19900FD2712 /* RemoteSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904720F3E19900FD2712 /* RemoteSession.swift */; };
+		F105907320F3E19900FD2712 /* SMBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904820F3E19900FD2712 /* SMBClient.swift */; };
+		F105907420F3E19900FD2712 /* FTPFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904920F3E19900FD2712 /* FTPFileProvider.swift */; };
+		F105907520F3E19900FD2712 /* FileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904A20F3E19900FD2712 /* FileProvider.swift */; };
+		F105907620F3E19900FD2712 /* DropboxFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904B20F3E19900FD2712 /* DropboxFileProvider.swift */; };
+		F105907720F3E19900FD2712 /* ExtendedLocalFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904C20F3E19900FD2712 /* ExtendedLocalFileProvider.swift */; };
+		F105907820F3E19900FD2712 /* OneDriveHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904D20F3E19900FD2712 /* OneDriveHelper.swift */; };
+		F105907920F3E19900FD2712 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105904F20F3E19900FD2712 /* FoundationExtensions.swift */; };
+		F105907A20F3E19900FD2712 /* HashMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905020F3E19900FD2712 /* HashMAC.swift */; };
+		F105907B20F3E19900FD2712 /* HTTPFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905120F3E19900FD2712 /* HTTPFileProvider.swift */; };
+		F105907C20F3E19900FD2712 /* LocalFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905220F3E19900FD2712 /* LocalFileProvider.swift */; };
+		F105907D20F3E19900FD2712 /* FTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905420F3E19900FD2712 /* FTPHelper.swift */; };
+		F105907E20F3E19900FD2712 /* SMBFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905520F3E19900FD2712 /* SMBFileProvider.swift */; };
+		F105907F20F3E19900FD2712 /* WebDAVFileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905620F3E19900FD2712 /* WebDAVFileProvider.swift */; };
+		F105908020F3E19900FD2712 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905820F3E19900FD2712 /* Options.swift */; };
+		F105908120F3E19900FD2712 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F105905920F3E19900FD2712 /* LICENSE */; };
+		F105908220F3E19900FD2712 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905A20F3E19900FD2712 /* Error.swift */; };
+		F105908320F3E19900FD2712 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905B20F3E19900FD2712 /* Element.swift */; };
+		F105908420F3E19900FD2712 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905C20F3E19900FD2712 /* Document.swift */; };
+		F105908520F3E19900FD2712 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905D20F3E19900FD2712 /* Parser.swift */; };
+		F105908620F3E19900FD2712 /* LocalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105905E20F3E19900FD2712 /* LocalHelper.swift */; };
+		F105908720F3E19900FD2712 /* SMBErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906020F3E19900FD2712 /* SMBErrorType.swift */; };
+		F105908820F3E19900FD2712 /* SMB2Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906120F3E19900FD2712 /* SMB2Session.swift */; };
+		F105908920F3E19900FD2712 /* SMB2FileHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906220F3E19900FD2712 /* SMB2FileHandle.swift */; };
+		F105908A20F3E19900FD2712 /* SMB2Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906320F3E19900FD2712 /* SMB2Types.swift */; };
+		F105908B20F3E19900FD2712 /* SMB2FileOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906420F3E19900FD2712 /* SMB2FileOperation.swift */; };
+		F105908C20F3E19900FD2712 /* SMB2IOCtl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906520F3E19900FD2712 /* SMB2IOCtl.swift */; };
+		F105908D20F3E19900FD2712 /* CIFSTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906620F3E19900FD2712 /* CIFSTypes.swift */; };
+		F105908E20F3E19900FD2712 /* SMB2QueryTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906720F3E19900FD2712 /* SMB2QueryTypes.swift */; };
+		F105908F20F3E19900FD2712 /* SMB2SetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906820F3E19900FD2712 /* SMB2SetInfo.swift */; };
+		F105909020F3E19900FD2712 /* SMB2DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906920F3E19900FD2712 /* SMB2DataTypes.swift */; };
+		F105909120F3E19900FD2712 /* SMB2Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906A20F3E19900FD2712 /* SMB2Query.swift */; };
+		F105909220F3E19900FD2712 /* SMB2Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906B20F3E19900FD2712 /* SMB2Tree.swift */; };
+		F105909320F3E19900FD2712 /* SMB2Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906C20F3E19900FD2712 /* SMB2Notification.swift */; };
+		F105909420F3E19900FD2712 /* DropboxHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906D20F3E19900FD2712 /* DropboxHelper.swift */; };
+		F105909520F3E19900FD2712 /* FPSStreamTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105906E20F3E19900FD2712 /* FPSStreamTask.swift */; };
+		F1183CDA202A5C8700E30B88 /* LastUpdateStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1183CD9202A5C8700E30B88 /* LastUpdateStruct.swift */; };
+		F1183CDC202A5C9100E30B88 /* GeoFolderStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1183CDB202A5C9100E30B88 /* GeoFolderStruct.swift */; };
+		F1183CDF202A5CED00E30B88 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1183CDE202A5CED00E30B88 /* Common.swift */; };
+		F1183D34202A5ED100E30B88 /* CheckUpdateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1183D33202A5ED100E30B88 /* CheckUpdateData.swift */; };
+		F139E24A202F5EA000C8A1C2 /* Melbourne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F139E247202F5EA000C8A1C2 /* Melbourne.jpg */; };
+		F139E24B202F5EA000C8A1C2 /* Firenze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F139E248202F5EA000C8A1C2 /* Firenze.jpg */; };
+		F139E24C202F5EA000C8A1C2 /* Singapore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F139E249202F5EA000C8A1C2 /* Singapore.jpg */; };
+		F139E250202F5F7D00C8A1C2 /* Milano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F139E24F202F5F7D00C8A1C2 /* Milano.jpg */; };
+		F14DF2CC2066B94100968F81 /* CDMedia+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14DF2CB2066B94100968F81 /* CDMedia+CoreDataProperties.swift */; };
+		F14ED99C202F4C3400DAD681 /* CDGeoFolder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14ED997202F4C3400DAD681 /* CDGeoFolder+CoreDataClass.swift */; };
+		F14ED99D202F4C3400DAD681 /* CDMedia+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14ED998202F4C3400DAD681 /* CDMedia+CoreDataClass.swift */; };
+		F14ED99E202F4C3400DAD681 /* CDGeoFolder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14ED999202F4C3400DAD681 /* CDGeoFolder+CoreDataProperties.swift */; };
+		F14ED99F202F4C3400DAD681 /* CDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14ED99A202F4C3400DAD681 /* CDController.swift */; };
+		F15207EE204AD27D00EB3220 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F15207ED204AD27D00EB3220 /* MBProgressHUD.m */; };
+		F16BE3152039C8A5002A84A6 /* UserDefaultExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F16BE3132039C8A5002A84A6 /* UserDefaultExample.xcdatamodeld */; };
+		F16BE3172039CCD8002A84A6 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16BE3162039CCD8002A84A6 /* Log.swift */; };
+		F16BE3192039D569002A84A6 /* ReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16BE3182039D569002A84A6 /* ReportVC.swift */; };
+		F1A06EAE203CCDAB002BAB39 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A06EAD203CCDAB002BAB39 /* DateHelper.swift */; };
+		F1AE378E209BAB9400D15FC9 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE378D209BAB9300D15FC9 /* Reachability.swift */; };
+		F1B4D43D2043381700F2AA53 /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4D43C2043381700F2AA53 /* ExtensionViewController.swift */; };
+		F1B580C12030BDBA0089C9D3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B580C02030BDBA0089C9D3 /* Utility.swift */; };
+		F1BBD5D5204DFA33006ADDB9 /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BBD5D4204DFA33006ADDB9 /* PhotoVC.swift */; };
+		F1BC9549204A96AE00272684 /* FileProviderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC9548204A96AE00272684 /* FileProviderHelper.swift */; };
 		F1DD4CED202A475A0091C9E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD4CEC202A475A0091C9E1 /* AppDelegate.swift */; };
 		F1DD4CEF202A475A0091C9E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD4CEE202A475A0091C9E1 /* ViewController.swift */; };
 		F1DD4CF2202A475A0091C9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD4CF0202A475A0091C9E1 /* Main.storyboard */; };
-		F1DD4CF5202A475A0091C9E1 /* UserDefaultExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1DD4CF3202A475A0091C9E1 /* UserDefaultExample.xcdatamodeld */; };
 		F1DD4CF7202A475A0091C9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DD4CF6202A475A0091C9E1 /* Assets.xcassets */; };
 		F1DD4CFA202A475A0091C9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD4CF8202A475A0091C9E1 /* LaunchScreen.storyboard */; };
+		F1DD4D02202A479C0091C9E1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1DD4D01202A479C0091C9E1 /* Settings.bundle */; };
+		F1DD4D04202A50A00091C9E1 /* PrefController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD4D03202A50A00091C9E1 /* PrefController.swift */; };
+		F1F5FC27202E3F10003D71F9 /* Costanti.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5FC26202E3F10003D71F9 /* Costanti.swift */; };
+		F1F8956E204CA22400CD1429 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F8956D204CA22400CD1429 /* CollectionViewController.swift */; };
+		F1F89570204CA26800CD1429 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F8956F204CA26800CD1429 /* CollectionReusableView.swift */; };
+		F1F89572204CA2B900CD1429 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F89571204CA2B900CD1429 /* CollectionViewCell.swift */; };
+		F1FD0AAF20E76568007FC5D0 /* AlertUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FD0AAE20E76568007FC5D0 /* AlertUtility.swift */; };
+		F1FD0AB120E78594007FC5D0 /* SS_Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FD0AB020E78594007FC5D0 /* SS_Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		954DB12120E5686C0061F6CF /* SSCheckMark.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSCheckMark.swift.swift; sourceTree = "<group>"; };
+		954DB12320E56D8F0061F6CF /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		F105904420F3E19900FD2712 /* OneDriveFileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDriveFileProvider.swift; sourceTree = "<group>"; };
+		F105904520F3E19900FD2712 /* CloudFileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudFileProvider.swift; sourceTree = "<group>"; };
+		F105904620F3E19900FD2712 /* FileObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileObject.swift; sourceTree = "<group>"; };
+		F105904720F3E19900FD2712 /* RemoteSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteSession.swift; sourceTree = "<group>"; };
+		F105904820F3E19900FD2712 /* SMBClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMBClient.swift; sourceTree = "<group>"; };
+		F105904920F3E19900FD2712 /* FTPFileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTPFileProvider.swift; sourceTree = "<group>"; };
+		F105904A20F3E19900FD2712 /* FileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileProvider.swift; sourceTree = "<group>"; };
+		F105904B20F3E19900FD2712 /* DropboxFileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxFileProvider.swift; sourceTree = "<group>"; };
+		F105904C20F3E19900FD2712 /* ExtendedLocalFileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedLocalFileProvider.swift; sourceTree = "<group>"; };
+		F105904D20F3E19900FD2712 /* OneDriveHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDriveHelper.swift; sourceTree = "<group>"; };
+		F105904F20F3E19900FD2712 /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		F105905020F3E19900FD2712 /* HashMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashMAC.swift; sourceTree = "<group>"; };
+		F105905120F3E19900FD2712 /* HTTPFileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPFileProvider.swift; sourceTree = "<group>"; };
+		F105905220F3E19900FD2712 /* LocalFileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFileProvider.swift; sourceTree = "<group>"; };
+		F105905320F3E19900FD2712 /* FileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileProvider.h; sourceTree = "<group>"; };
+		F105905420F3E19900FD2712 /* FTPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTPHelper.swift; sourceTree = "<group>"; };
+		F105905520F3E19900FD2712 /* SMBFileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMBFileProvider.swift; sourceTree = "<group>"; };
+		F105905620F3E19900FD2712 /* WebDAVFileProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDAVFileProvider.swift; sourceTree = "<group>"; };
+		F105905820F3E19900FD2712 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		F105905920F3E19900FD2712 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F105905A20F3E19900FD2712 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		F105905B20F3E19900FD2712 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		F105905C20F3E19900FD2712 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		F105905D20F3E19900FD2712 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		F105905E20F3E19900FD2712 /* LocalHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalHelper.swift; sourceTree = "<group>"; };
+		F105906020F3E19900FD2712 /* SMBErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMBErrorType.swift; sourceTree = "<group>"; };
+		F105906120F3E19900FD2712 /* SMB2Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2Session.swift; sourceTree = "<group>"; };
+		F105906220F3E19900FD2712 /* SMB2FileHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2FileHandle.swift; sourceTree = "<group>"; };
+		F105906320F3E19900FD2712 /* SMB2Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2Types.swift; sourceTree = "<group>"; };
+		F105906420F3E19900FD2712 /* SMB2FileOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2FileOperation.swift; sourceTree = "<group>"; };
+		F105906520F3E19900FD2712 /* SMB2IOCtl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2IOCtl.swift; sourceTree = "<group>"; };
+		F105906620F3E19900FD2712 /* CIFSTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIFSTypes.swift; sourceTree = "<group>"; };
+		F105906720F3E19900FD2712 /* SMB2QueryTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2QueryTypes.swift; sourceTree = "<group>"; };
+		F105906820F3E19900FD2712 /* SMB2SetInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2SetInfo.swift; sourceTree = "<group>"; };
+		F105906920F3E19900FD2712 /* SMB2DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2DataTypes.swift; sourceTree = "<group>"; };
+		F105906A20F3E19900FD2712 /* SMB2Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2Query.swift; sourceTree = "<group>"; };
+		F105906B20F3E19900FD2712 /* SMB2Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2Tree.swift; sourceTree = "<group>"; };
+		F105906C20F3E19900FD2712 /* SMB2Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMB2Notification.swift; sourceTree = "<group>"; };
+		F105906D20F3E19900FD2712 /* DropboxHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxHelper.swift; sourceTree = "<group>"; };
+		F105906E20F3E19900FD2712 /* FPSStreamTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPSStreamTask.swift; sourceTree = "<group>"; };
+		F1183CD9202A5C8700E30B88 /* LastUpdateStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastUpdateStruct.swift; sourceTree = "<group>"; };
+		F1183CDB202A5C9100E30B88 /* GeoFolderStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoFolderStruct.swift; sourceTree = "<group>"; };
+		F1183CDE202A5CED00E30B88 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		F1183D33202A5ED100E30B88 /* CheckUpdateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CheckUpdateData.swift; path = UserDefaultExample/CheckUpdateData.swift; sourceTree = SOURCE_ROOT; };
+		F139E247202F5EA000C8A1C2 /* Melbourne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Melbourne.jpg; sourceTree = "<group>"; };
+		F139E248202F5EA000C8A1C2 /* Firenze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Firenze.jpg; sourceTree = "<group>"; };
+		F139E249202F5EA000C8A1C2 /* Singapore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Singapore.jpg; sourceTree = "<group>"; };
+		F139E24F202F5F7D00C8A1C2 /* Milano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Milano.jpg; sourceTree = "<group>"; };
+		F14DF2C82066B82400968F81 /* asd_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = asd_3.xcdatamodel; sourceTree = "<group>"; };
+		F14DF2CB2066B94100968F81 /* CDMedia+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDMedia+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F14ED997202F4C3400DAD681 /* CDGeoFolder+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDGeoFolder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F14ED998202F4C3400DAD681 /* CDMedia+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDMedia+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F14ED999202F4C3400DAD681 /* CDGeoFolder+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDGeoFolder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F14ED99A202F4C3400DAD681 /* CDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDController.swift; sourceTree = "<group>"; };
+		F15207EC204AD27C00EB3220 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F15207ED204AD27D00EB3220 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F15207F0204AD33700EB3220 /* MBProgressHUD-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Bridging-Header.h"; sourceTree = "<group>"; };
+		F16BE3142039C8A5002A84A6 /* asd.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = asd.xcdatamodel; sourceTree = "<group>"; };
+		F16BE3162039CCD8002A84A6 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		F16BE3182039D569002A84A6 /* ReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportVC.swift; sourceTree = "<group>"; };
+		F1A06EAD203CCDAB002BAB39 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		F1AE378D209BAB9300D15FC9 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		F1B4D43C2043381700F2AA53 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		F1B580C02030BDBA0089C9D3 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		F1BBD5D4204DFA33006ADDB9 /* PhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
+		F1BC9548204A96AE00272684 /* FileProviderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderHelper.swift; sourceTree = "<group>"; };
+		F1D865AD205D8146008A3495 /* asd_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = asd_2.xcdatamodel; sourceTree = "<group>"; };
 		F1DD4CE9202A475A0091C9E1 /* UserDefaultExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserDefaultExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DD4CEC202A475A0091C9E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1DD4CEE202A475A0091C9E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1DD4CF1202A475A0091C9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F1DD4CF4202A475A0091C9E1 /* UserDefaultExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserDefaultExample.xcdatamodel; sourceTree = "<group>"; };
 		F1DD4CF6202A475A0091C9E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1DD4CF9202A475A0091C9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1DD4CFB202A475A0091C9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD4D01202A479C0091C9E1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		F1DD4D03202A50A00091C9E1 /* PrefController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefController.swift; sourceTree = "<group>"; };
+		F1F5FC26202E3F10003D71F9 /* Costanti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Costanti.swift; sourceTree = "<group>"; };
+		F1F8956D204CA22400CD1429 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		F1F8956F204CA26800CD1429 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		F1F89571204CA2B900CD1429 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F1FD0AAE20E76568007FC5D0 /* AlertUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtility.swift; sourceTree = "<group>"; };
+		F1FD0AB020E78594007FC5D0 /* SS_Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SS_Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +184,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F105904320F3E19900FD2712 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F105904420F3E19900FD2712 /* OneDriveFileProvider.swift */,
+				F105904520F3E19900FD2712 /* CloudFileProvider.swift */,
+				F105904620F3E19900FD2712 /* FileObject.swift */,
+				F105904720F3E19900FD2712 /* RemoteSession.swift */,
+				F105904820F3E19900FD2712 /* SMBClient.swift */,
+				F105904920F3E19900FD2712 /* FTPFileProvider.swift */,
+				F105904A20F3E19900FD2712 /* FileProvider.swift */,
+				F105904B20F3E19900FD2712 /* DropboxFileProvider.swift */,
+				F105904C20F3E19900FD2712 /* ExtendedLocalFileProvider.swift */,
+				F105904D20F3E19900FD2712 /* OneDriveHelper.swift */,
+				F105904E20F3E19900FD2712 /* Extensions */,
+				F105905120F3E19900FD2712 /* HTTPFileProvider.swift */,
+				F105905220F3E19900FD2712 /* LocalFileProvider.swift */,
+				F105905320F3E19900FD2712 /* FileProvider.h */,
+				F105905420F3E19900FD2712 /* FTPHelper.swift */,
+				F105905520F3E19900FD2712 /* SMBFileProvider.swift */,
+				F105905620F3E19900FD2712 /* WebDAVFileProvider.swift */,
+				F105905720F3E19900FD2712 /* AEXML */,
+				F105905E20F3E19900FD2712 /* LocalHelper.swift */,
+				F105905F20F3E19900FD2712 /* SMBTypes */,
+				F105906D20F3E19900FD2712 /* DropboxHelper.swift */,
+				F105906E20F3E19900FD2712 /* FPSStreamTask.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F105904E20F3E19900FD2712 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F105904F20F3E19900FD2712 /* FoundationExtensions.swift */,
+				F105905020F3E19900FD2712 /* HashMAC.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F105905720F3E19900FD2712 /* AEXML */ = {
+			isa = PBXGroup;
+			children = (
+				F105905820F3E19900FD2712 /* Options.swift */,
+				F105905920F3E19900FD2712 /* LICENSE */,
+				F105905A20F3E19900FD2712 /* Error.swift */,
+				F105905B20F3E19900FD2712 /* Element.swift */,
+				F105905C20F3E19900FD2712 /* Document.swift */,
+				F105905D20F3E19900FD2712 /* Parser.swift */,
+			);
+			path = AEXML;
+			sourceTree = "<group>";
+		};
+		F105905F20F3E19900FD2712 /* SMBTypes */ = {
+			isa = PBXGroup;
+			children = (
+				F105906020F3E19900FD2712 /* SMBErrorType.swift */,
+				F105906120F3E19900FD2712 /* SMB2Session.swift */,
+				F105906220F3E19900FD2712 /* SMB2FileHandle.swift */,
+				F105906320F3E19900FD2712 /* SMB2Types.swift */,
+				F105906420F3E19900FD2712 /* SMB2FileOperation.swift */,
+				F105906520F3E19900FD2712 /* SMB2IOCtl.swift */,
+				F105906620F3E19900FD2712 /* CIFSTypes.swift */,
+				F105906720F3E19900FD2712 /* SMB2QueryTypes.swift */,
+				F105906820F3E19900FD2712 /* SMB2SetInfo.swift */,
+				F105906920F3E19900FD2712 /* SMB2DataTypes.swift */,
+				F105906A20F3E19900FD2712 /* SMB2Query.swift */,
+				F105906B20F3E19900FD2712 /* SMB2Tree.swift */,
+				F105906C20F3E19900FD2712 /* SMB2Notification.swift */,
+			);
+			path = SMBTypes;
+			sourceTree = "<group>";
+		};
+		F1183CDD202A5CA000E30B88 /* Data Struct */ = {
+			isa = PBXGroup;
+			children = (
+				F1183CD9202A5C8700E30B88 /* LastUpdateStruct.swift */,
+				F1183CDB202A5C9100E30B88 /* GeoFolderStruct.swift */,
+				F1183CDE202A5CED00E30B88 /* Common.swift */,
+			);
+			path = "Data Struct";
+			sourceTree = "<group>";
+		};
+		F139E246202F5EA000C8A1C2 /* Foto */ = {
+			isa = PBXGroup;
+			children = (
+				F139E24F202F5F7D00C8A1C2 /* Milano.jpg */,
+				F139E247202F5EA000C8A1C2 /* Melbourne.jpg */,
+				F139E248202F5EA000C8A1C2 /* Firenze.jpg */,
+				F139E249202F5EA000C8A1C2 /* Singapore.jpg */,
+			);
+			path = Foto;
+			sourceTree = "<group>";
+		};
+		F14ED9A1202F4E1800DAD681 /* Coredata Files */ = {
+			isa = PBXGroup;
+			children = (
+				F14ED99A202F4C3400DAD681 /* CDController.swift */,
+				F14ED997202F4C3400DAD681 /* CDGeoFolder+CoreDataClass.swift */,
+				F14ED999202F4C3400DAD681 /* CDGeoFolder+CoreDataProperties.swift */,
+				F14ED998202F4C3400DAD681 /* CDMedia+CoreDataClass.swift */,
+				F14DF2CB2066B94100968F81 /* CDMedia+CoreDataProperties.swift */,
+			);
+			path = "Coredata Files";
+			sourceTree = "<group>";
+		};
+		F15207EF204AD30600EB3220 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F15207EC204AD27C00EB3220 /* MBProgressHUD.h */,
+				F15207ED204AD27D00EB3220 /* MBProgressHUD.m */,
+				F15207F0204AD33700EB3220 /* MBProgressHUD-Bridging-Header.h */,
+			);
+			name = MBProgressHUD;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		F1DD4CE0202A475A0091C9E1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +318,37 @@
 		F1DD4CEB202A475A0091C9E1 /* UserDefaultExample */ = {
 			isa = PBXGroup;
 			children = (
+				954DB12120E5686C0061F6CF /* SSCheckMark.swift.swift */,
+				954DB12320E56D8F0061F6CF /* ImageScrollView.swift */,
+				F1FD0AAE20E76568007FC5D0 /* AlertUtility.swift */,
+				F1FD0AB020E78594007FC5D0 /* SS_Alert.swift */,
+				F15207EF204AD30600EB3220 /* MBProgressHUD */,
+				F16BE3162039CCD8002A84A6 /* Log.swift */,
+				F1AE378D209BAB9300D15FC9 /* Reachability.swift */,
+				F105904320F3E19900FD2712 /* Sources */,
+				F14ED9A1202F4E1800DAD681 /* Coredata Files */,
+				F1DD4D03202A50A00091C9E1 /* PrefController.swift */,
+				F1183D33202A5ED100E30B88 /* CheckUpdateData.swift */,
+				F1F5FC26202E3F10003D71F9 /* Costanti.swift */,
 				F1DD4CEC202A475A0091C9E1 /* AppDelegate.swift */,
 				F1DD4CEE202A475A0091C9E1 /* ViewController.swift */,
+				F1BC9548204A96AE00272684 /* FileProviderHelper.swift */,
+				F1F8956D204CA22400CD1429 /* CollectionViewController.swift */,
+				F1F8956F204CA26800CD1429 /* CollectionReusableView.swift */,
+				F1F89571204CA2B900CD1429 /* CollectionViewCell.swift */,
+				F1B4D43C2043381700F2AA53 /* ExtensionViewController.swift */,
+				F1B580C02030BDBA0089C9D3 /* Utility.swift */,
+				F1A06EAD203CCDAB002BAB39 /* DateHelper.swift */,
+				F139E246202F5EA000C8A1C2 /* Foto */,
+				F1183CDD202A5CA000E30B88 /* Data Struct */,
 				F1DD4CF0202A475A0091C9E1 /* Main.storyboard */,
+				F16BE3132039C8A5002A84A6 /* UserDefaultExample.xcdatamodeld */,
 				F1DD4CF6202A475A0091C9E1 /* Assets.xcassets */,
 				F1DD4CF8202A475A0091C9E1 /* LaunchScreen.storyboard */,
 				F1DD4CFB202A475A0091C9E1 /* Info.plist */,
-				F1DD4CF3202A475A0091C9E1 /* UserDefaultExample.xcdatamodeld */,
+				F1DD4D01202A479C0091C9E1 /* Settings.bundle */,
+				F16BE3182039D569002A84A6 /* ReportVC.swift */,
+				F1BBD5D4204DFA33006ADDB9 /* PhotoVC.swift */,
 			);
 			path = UserDefaultExample;
 			sourceTree = "<group>";
@@ -94,12 +380,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = studiopiersigilli.it;
 				TargetAttributes = {
 					F1DD4CE8202A475A0091C9E1 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,9 +418,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DD4D02202A479C0091C9E1 /* Settings.bundle in Resources */,
+				F139E24A202F5EA000C8A1C2 /* Melbourne.jpg in Resources */,
 				F1DD4CFA202A475A0091C9E1 /* LaunchScreen.storyboard in Resources */,
 				F1DD4CF7202A475A0091C9E1 /* Assets.xcassets in Resources */,
+				F139E24C202F5EA000C8A1C2 /* Singapore.jpg in Resources */,
 				F1DD4CF2202A475A0091C9E1 /* Main.storyboard in Resources */,
+				F105908120F3E19900FD2712 /* LICENSE in Resources */,
+				F139E24B202F5EA000C8A1C2 /* Firenze.jpg in Resources */,
+				F139E250202F5F7D00C8A1C2 /* Milano.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +437,74 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F105908D20F3E19900FD2712 /* CIFSTypes.swift in Sources */,
+				F105907C20F3E19900FD2712 /* LocalFileProvider.swift in Sources */,
+				F16BE3172039CCD8002A84A6 /* Log.swift in Sources */,
+				F15207EE204AD27D00EB3220 /* MBProgressHUD.m in Sources */,
+				F105907D20F3E19900FD2712 /* FTPHelper.swift in Sources */,
+				F105908520F3E19900FD2712 /* Parser.swift in Sources */,
+				F105908020F3E19900FD2712 /* Options.swift in Sources */,
+				F105907920F3E19900FD2712 /* FoundationExtensions.swift in Sources */,
+				F1BBD5D5204DFA33006ADDB9 /* PhotoVC.swift in Sources */,
+				F1FD0AAF20E76568007FC5D0 /* AlertUtility.swift in Sources */,
+				F1DD4D04202A50A00091C9E1 /* PrefController.swift in Sources */,
+				F16BE3192039D569002A84A6 /* ReportVC.swift in Sources */,
 				F1DD4CEF202A475A0091C9E1 /* ViewController.swift in Sources */,
 				F1DD4CED202A475A0091C9E1 /* AppDelegate.swift in Sources */,
-				F1DD4CF5202A475A0091C9E1 /* UserDefaultExample.xcdatamodeld in Sources */,
+				F1B580C12030BDBA0089C9D3 /* Utility.swift in Sources */,
+				F105909020F3E19900FD2712 /* SMB2DataTypes.swift in Sources */,
+				F105909320F3E19900FD2712 /* SMB2Notification.swift in Sources */,
+				F1183D34202A5ED100E30B88 /* CheckUpdateData.swift in Sources */,
+				F105908B20F3E19900FD2712 /* SMB2FileOperation.swift in Sources */,
+				F105908920F3E19900FD2712 /* SMB2FileHandle.swift in Sources */,
+				F105908320F3E19900FD2712 /* Element.swift in Sources */,
+				F105909120F3E19900FD2712 /* SMB2Query.swift in Sources */,
+				F14ED99E202F4C3400DAD681 /* CDGeoFolder+CoreDataProperties.swift in Sources */,
+				F105907520F3E19900FD2712 /* FileProvider.swift in Sources */,
+				954DB12420E56D8F0061F6CF /* ImageScrollView.swift in Sources */,
+				F14ED99C202F4C3400DAD681 /* CDGeoFolder+CoreDataClass.swift in Sources */,
+				F1A06EAE203CCDAB002BAB39 /* DateHelper.swift in Sources */,
+				F1F89572204CA2B900CD1429 /* CollectionViewCell.swift in Sources */,
+				F1F89570204CA26800CD1429 /* CollectionReusableView.swift in Sources */,
+				F105908620F3E19900FD2712 /* LocalHelper.swift in Sources */,
+				F1B4D43D2043381700F2AA53 /* ExtensionViewController.swift in Sources */,
+				F105908720F3E19900FD2712 /* SMBErrorType.swift in Sources */,
+				F1183CDC202A5C9100E30B88 /* GeoFolderStruct.swift in Sources */,
+				F105907820F3E19900FD2712 /* OneDriveHelper.swift in Sources */,
+				F105907E20F3E19900FD2712 /* SMBFileProvider.swift in Sources */,
+				F105907220F3E19900FD2712 /* RemoteSession.swift in Sources */,
+				F1183CDA202A5C8700E30B88 /* LastUpdateStruct.swift in Sources */,
+				F105908C20F3E19900FD2712 /* SMB2IOCtl.swift in Sources */,
+				F105909420F3E19900FD2712 /* DropboxHelper.swift in Sources */,
+				954DB12220E5686D0061F6CF /* SSCheckMark.swift.swift in Sources */,
+				F105907020F3E19900FD2712 /* CloudFileProvider.swift in Sources */,
+				F105907120F3E19900FD2712 /* FileObject.swift in Sources */,
+				F105906F20F3E19900FD2712 /* OneDriveFileProvider.swift in Sources */,
+				F105907620F3E19900FD2712 /* DropboxFileProvider.swift in Sources */,
+				F105908E20F3E19900FD2712 /* SMB2QueryTypes.swift in Sources */,
+				F1FD0AB120E78594007FC5D0 /* SS_Alert.swift in Sources */,
+				F105908A20F3E19900FD2712 /* SMB2Types.swift in Sources */,
+				F105907420F3E19900FD2712 /* FTPFileProvider.swift in Sources */,
+				F1183CDF202A5CED00E30B88 /* Common.swift in Sources */,
+				F14ED99F202F4C3400DAD681 /* CDController.swift in Sources */,
+				F14ED99D202F4C3400DAD681 /* CDMedia+CoreDataClass.swift in Sources */,
+				F105908820F3E19900FD2712 /* SMB2Session.swift in Sources */,
+				F105908F20F3E19900FD2712 /* SMB2SetInfo.swift in Sources */,
+				F14DF2CC2066B94100968F81 /* CDMedia+CoreDataProperties.swift in Sources */,
+				F1F5FC27202E3F10003D71F9 /* Costanti.swift in Sources */,
+				F1BC9549204A96AE00272684 /* FileProviderHelper.swift in Sources */,
+				F1F8956E204CA22400CD1429 /* CollectionViewController.swift in Sources */,
+				F1AE378E209BAB9400D15FC9 /* Reachability.swift in Sources */,
+				F105909520F3E19900FD2712 /* FPSStreamTask.swift in Sources */,
+				F105909220F3E19900FD2712 /* SMB2Tree.swift in Sources */,
+				F16BE3152039C8A5002A84A6 /* UserDefaultExample.xcdatamodeld in Sources */,
+				F105907F20F3E19900FD2712 /* WebDAVFileProvider.swift in Sources */,
+				F105907A20F3E19900FD2712 /* HashMAC.swift in Sources */,
+				F105907720F3E19900FD2712 /* ExtendedLocalFileProvider.swift in Sources */,
+				F105908420F3E19900FD2712 /* Document.swift in Sources */,
+				F105907320F3E19900FD2712 /* SMBClient.swift in Sources */,
+				F105908220F3E19900FD2712 /* Error.swift in Sources */,
+				F105907B20F3E19900FD2712 /* HTTPFileProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +544,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +552,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +603,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +611,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -278,12 +645,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67WREJV3CY;
 				INFOPLIST_FILE = UserDefaultExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cesare.piersigilli.UserDefaultExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UserDefaultExample/UserDefaultExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,12 +663,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67WREJV3CY;
 				INFOPLIST_FILE = UserDefaultExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cesare.piersigilli.UserDefaultExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UserDefaultExample/UserDefaultExample-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -328,12 +700,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F1DD4CF3202A475A0091C9E1 /* UserDefaultExample.xcdatamodeld */ = {
+		F16BE3132039C8A5002A84A6 /* UserDefaultExample.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F1DD4CF4202A475A0091C9E1 /* UserDefaultExample.xcdatamodel */,
+				F14DF2C82066B82400968F81 /* asd_3.xcdatamodel */,
+				F1D865AD205D8146008A3495 /* asd_2.xcdatamodel */,
+				F16BE3142039C8A5002A84A6 /* asd.xcdatamodel */,
 			);
-			currentVersion = F1DD4CF4202A475A0091C9E1 /* UserDefaultExample.xcdatamodel */;
+			currentVersion = F14DF2C82066B82400968F81 /* asd_3.xcdatamodel */;
 			path = UserDefaultExample.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
